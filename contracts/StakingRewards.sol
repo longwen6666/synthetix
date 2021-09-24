@@ -1,9 +1,9 @@
 pragma solidity ^0.5.16;
 
-import "openzeppelin-solidity-2.3.0/contracts/math/SafeMath.sol";
-import "openzeppelin-solidity-2.3.0/contracts/token/ERC20/ERC20Detailed.sol";
-import "openzeppelin-solidity-2.3.0/contracts/token/ERC20/SafeERC20.sol";
-import "openzeppelin-solidity-2.3.0/contracts/utils/ReentrancyGuard.sol";
+import "./lib/SafeMath.sol";
+import "./lib/ERC20Detailed.sol";
+import "./lib/SafeERC20.sol";
+import "./lib/ReentrancyGuard.sol";
 
 // Inheritance
 import "./interfaces/IStakingRewards.sol";

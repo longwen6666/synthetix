@@ -11,9 +11,9 @@ import "./SafeDecimalMath.sol";
 
 // Internal references
 // AggregatorInterface from Chainlink represents a decentralized pricing network for a single currency key
-import "@chainlink/contracts-0.0.10/src/v0.5/interfaces/AggregatorV2V3Interface.sol";
+import "./Chainlink/interfaces/AggregatorV2V3Interface.sol";
 // FlagsInterface from Chainlink addresses SIP-76
-import "@chainlink/contracts-0.0.10/src/v0.5/interfaces/FlagsInterface.sol";
+import "./chainlink/interfaces/FlagsInterface.sol";
 import "./interfaces/IExchanger.sol";
 
 // https://docs.synthetix.io/contracts/source/contracts/exchangerates

@@ -1,7 +1,7 @@
 pragma solidity ^0.5.16;
 
 // Inheritance
-import "openzeppelin-solidity-2.3.0/contracts/token/ERC20/ERC20.sol";
+import "../lib/ERC20.sol";
 
 // Libraries
 import "../SafeDecimalMath.sol";

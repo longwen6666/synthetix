@@ -4,10 +4,10 @@ pragma experimental ABIEncoderV2;
 // Inheritance
 import "./BaseSynthetixBridge.sol";
 import "./interfaces/ISynthetixBridgeToBase.sol";
-import "@eth-optimism/contracts/iOVM/bridge/tokens/iOVM_L2DepositedToken.sol";
+import "./optimistic-ethereum/iOVM/bridge/tokens/iOVM_L2DepositedToken.sol";
 
 // Internal references
-import "@eth-optimism/contracts/iOVM/bridge/tokens/iOVM_L1TokenGateway.sol";
+import "optimistic-ethereum/iOVM/bridge/tokens/iOVM_L1TokenGateway.sol";
 
 contract SynthetixBridgeToBase is BaseSynthetixBridge, ISynthetixBridgeToBase, iOVM_L2DepositedToken {
     /* ========== ADDRESS RESOLVER CONFIGURATION ========== */
